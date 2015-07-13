@@ -21,7 +21,6 @@ module.exports = function (grunt) {
     cdnify: 'grunt-google-cdn'
   });
 
-  require('load-grunt-tasks')(grunt);
 
   // Configurable paths for the application
   var appConfig = {
